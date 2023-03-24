@@ -32,6 +32,14 @@ class Programa
         short pequeno;
         pequeno = 15000;
 
+        // Char
+        char letra = 'A';
+        Console.Write(letra);
+
+        // String
+        string frase = " esperança é a última que morre";
+        Console.WriteLine(frase);
+
         Console.WriteLine("Tecle [ENTER] para fechar...");
         Console.ReadLine();
     }
