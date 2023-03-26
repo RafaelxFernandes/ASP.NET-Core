@@ -24,3 +24,18 @@
 - propriedades autoimplementadas
 - construtores
 - métodos estáticos
+
+### 3 - C#: Usando herança e implementando interfaces
+- sobrecarga de métodos/ polimorfismo
+- organização em diretórios distintos
+- herança
+- redefinir um comportamento escrito em uma classe base para uma classe derivada
+- invocar o construtor da classe base a partir do construtor da classe derivada
+- proteger propriedades usando o operador de visibilidade protected para impedir o acesso direto a uma propriedade de um objeto
+- utilizar classes abstratas para definir uma classe que será modelo para criação de novas classes
+-  usar métodos abstratos para definir como obrigatória a implementação de determinado comportamento em classes derivadas
+- adicionar uma nova classe à hierarquia de classes já definida com a intenção de atender à uma nova demanda do projeto
+- avançar na utilização da herança de classes, fazendo uma classe herdar de outra
+- C# não implementa o conceito de herança múltipla
+- funcionamento das interfaces na orientação a objetos, que são contratos que definem comportamentos a serem implementados pelas classes que assinam este contrato
+- utilizar o padrão de nomenclatura adotada para nomeação de interfaces, aplicando a convenção que utiliza o prefixo I
