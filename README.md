@@ -1,6 +1,8 @@
 # ASP.NET-Core
 ## Exercícios Alura da formação ASP.NET Core
 
+![certificado-c-sharp](https://raw.githubusercontent.com/RafaelxFernandes/ASP.NET-Core/master/Alura%20-%20Csharp-1.png?token=GHSAT0AAAAAABYH725GJHFPPMV5Z2QTUTISZBBUNSA)
+
 ### 1 - C#: Explorando a linguagem
 - ambientação no Visual Studio
 - criação de projetos
