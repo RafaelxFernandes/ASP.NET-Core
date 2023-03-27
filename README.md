@@ -39,3 +39,15 @@
 - C# não implementa o conceito de herança múltipla
 - funcionamento das interfaces na orientação a objetos, que são contratos que definem comportamentos a serem implementados pelas classes que assinam este contrato
 - utilizar o padrão de nomenclatura adotada para nomeação de interfaces, aplicando a convenção que utiliza o prefixo I
+
+### 4 - C#: Exceções
+- pilha de chamadas (call stack)
+- lidando com erros
+- tratando exceções
+- throw, ParamName e NameOf
+- ArgumentException
+- criar própria exceção
+- StackTrace
+- InnerException
+- IOException
+- Finally
