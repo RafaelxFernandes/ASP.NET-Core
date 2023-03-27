@@ -53,3 +53,30 @@
 - InnerException
 - IOException
 - Finally
+
+### 5 - .NET 6: Criando uma Web API
+- APIs trazem vantagens como: facilitar o consumo e disponibilização de dados e padronização
+- REST é um padrão arquitetural que visa padronizar os meios de tráfego de dados
+- enviar requisições para a API através de rotas padronizadas
+- criar controladores, preparando a API para receber requisições
+- criar um recurso em memória no sistema por meio da utilização de listas
+- anotação [Required] torna obrigatório passar um parâmetro determinado
+- anotação [StringLength] limita o tamanho de caracteres de uma string
+- anotação [Range] limita o intervalo inferior e superior para valores numéricos
+- recuperar informações da API através da criação de actions
+- enviar parâmetros através da URL de requisição
+- filtrar recursos para retornar para o usuário utilizando LINQ
+- tornar nossos retornos mais enxutos através de conceitos de paginação
+- abrir uma conexão entre a API e o banco de dados através do EntityFramework
+- gerar migrations com .NET 6 e mapear nosso objeto no banco de dados
+- DbContext serve como ponte e para fazer operações no banco
+- injetar o DbContext em nosso controlador a fim de acessar o banco de dados
+- salvar as alterações no banco de dados através do método SaveChanges()
+- DTOs nos ajudam a não deixar nosso modelo de banco de dados exposto
+- fazer conversões práticas entre diferentes tipos através do AutoMapper
+- verbo PUT pode ser utilizado quando queremos atualizar algum recurso no sistema
+- verbo PATCH também pode ser utilizado para atualizações, porém de maneira parcial
+- verbo DELETE deve ser utilizado quando queremos deletar um recurso no sistema
+- quando um recurso é atualizado ou removido com sucesso, devemos retornar status 204 (No Content)
+- configurar o Swagger em nossa classe Program.cs
+- documentar métodos através de XML
