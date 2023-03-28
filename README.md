@@ -1,7 +1,7 @@
 # ASP.NET-Core
 ## Exercícios Alura da formação ASP.NET Core
 
-![certificado-c-sharp](https://raw.githubusercontent.com/RafaelxFernandes/ASP.NET-Core/master/Alura%20-%20Csharp-1.png?token=GHSAT0AAAAAABYH725HREPYZAAP7EROL6JCZBB4HXA)
+![certificado-c-sharp](https://raw.githubusercontent.com/RafaelxFernandes/ASP.NET-Core/master/Alura%20-%20Csharp-1.png)
 
 ### 1 - C#: Explorando a linguagem
 - ambientação no Visual Studio
@@ -80,3 +80,24 @@
 - quando um recurso é atualizado ou removido com sucesso, devemos retornar status 204 (No Content)
 - configurar o Swagger em nossa classe Program.cs
 - documentar métodos através de XML
+
+### 6 - .NET 6: Relacionando Entidades
+- como criar, ler, atualizar e remover recursos no sistema
+- Entity provê a capacidade de relacionar entidades dentro de um banco de dados
+- através do Entity conseguimos abstrair questões de dependências entre entidades a nível de banco
+- relacionamento 1:1 cria um vínculo entre uma e somente uma entidade dos dois lados
+- definir a cardinalidade do relacionamento através das propriedades do modelo
+- definir relações de dependência através das propriedades
+- habilitar e utilizar Lazy Properties com o método UseLazyLoadingProxies()
+- propriedades lazy podem ser acessadas diretamente em tempo de execução
+- fazer mapeamentos mais complexos com os métodos ForMember() e MapFrom()
+- um relacionamento 1:n cria um vínculo entre uma e muitas entidades
+- podemos definir a cardinalidade do relacionamento através das propriedades do modelo
+- valor na coluna de uma chave estrangeira deve constar na tabela dominante na relação
+- relacionamento n:n cria um vínculo entre muitas e muitas entidades
+- criar e customizar relacionamentos através do método OnModelCreating()
+- relacionamento n:n pode ser composto por dois relacionamentos 1:n através de uma tabela auxiliar
+- deleções em cascata são perigosas, pois podem apagar todos os dados de determinado fluxo em cadeia
+- alterar o comportamento de deleção padrão através do DbContext
+- efetuar consultas com SQL diretamente em nosso código através do método FromSqlRaw()
+- efetuar consultas através do LINQ
